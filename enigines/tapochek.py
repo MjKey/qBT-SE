@@ -1,4 +1,4 @@
-# VERSION: 1.2
+# VERSION: 1.1
 # AUTHORS: MjKey
 #
 # Tapochek.net search engine plugin for qBittorrent
@@ -369,5 +369,6 @@ if __name__ == "__main__":
         EngineSettingsGUI(FILENAME)
     engine = tapochek()
     engine.search("doctor")
+
 
 
